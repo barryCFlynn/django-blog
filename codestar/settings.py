@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['8000-barrycflynn-django-blog-74t5pfxsos.us2.codeanyapp.com',
                 '8000-barrycflynn-djangoblog-1fd9t2gihh1.ws-eu107.gitpod.io',
